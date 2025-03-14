@@ -1,0 +1,76 @@
+# depslib dependency file v1.0
+1736709315 source:c:\users\diana\desktop\college\poo\rock_the_shop\project\main.cpp
+	"interfata.h"
+
+1736605602 c:\users\diana\desktop\college\poo\rock_the_shop\project\artv.h
+	"produse.h"
+
+1736718363 c:\users\diana\desktop\college\poo\rock_the_shop\project\produse.h
+	"idgen.h"
+
+1736718414 source:c:\users\diana\desktop\college\poo\rock_the_shop\project\produse.cpp
+	"produse.h"
+
+1736613193 source:c:\users\diana\desktop\college\poo\rock_the_shop\project\artv.cpp
+	"artv.h"
+
+1736613193 source:c:\users\diana\desktop\college\poo\rock_the_shop\project\disc.cpp
+	"disc.h"
+
+1736606251 c:\users\diana\desktop\college\poo\rock_the_shop\project\disc.h
+	"artv.h"
+
+1736613193 source:c:\users\diana\desktop\college\poo\rock_the_shop\project\discv.cpp
+	"discV.h"
+
+1736606251 c:\users\diana\desktop\college\poo\rock_the_shop\project\discv.h
+	"disc.h"
+
+1736718363 source:c:\users\diana\desktop\college\poo\rock_the_shop\project\angajati.cpp
+	"angajati.h"
+
+1736718363 c:\users\diana\desktop\college\poo\rock_the_shop\project\angajati.h
+	"discV.h"
+
+1736605488 source:c:\users\diana\desktop\college\poo\rock_the_shop\project\asistent.cpp
+	"asistent.h"
+
+1736606082 c:\users\diana\desktop\college\poo\rock_the_shop\project\asistent.h
+	"operator.h"
+
+1736606251 c:\users\diana\desktop\college\poo\rock_the_shop\project\operator.h
+	"manager.h"
+
+1736615625 c:\users\diana\desktop\college\poo\rock_the_shop\project\manager.h
+	"angajati.h"
+
+1736615625 source:c:\users\diana\desktop\college\poo\rock_the_shop\project\manager.cpp
+	"manager.h"
+
+1736605488 source:c:\users\diana\desktop\college\poo\rock_the_shop\project\operator.cpp
+	"operator.h"
+
+1736613316 c:\users\diana\desktop\college\poo\rock_the_shop\project\idgen.h
+	<iostream>
+	<string>
+	<vector>
+	<ctime>
+	<chrono>
+	<map>
+	<queue>
+
+1736613316 source:c:\users\diana\desktop\college\poo\rock_the_shop\project\idgen.cpp
+	"idgen.h"
+
+1736718363 source:c:\users\diana\desktop\college\poo\rock_the_shop\project\interfata.cpp
+	"interfata.h"
+
+1736718363 c:\users\diana\desktop\college\poo\rock_the_shop\project\interfata.h
+	"comanda.h"
+
+1736718363 c:\users\diana\desktop\college\poo\rock_the_shop\project\comanda.h
+	"asistent.h"
+
+1736718379 source:c:\users\diana\desktop\college\poo\rock_the_shop\project\comanda.cpp
+	"comanda.h"
+

@@ -1,6 +1,6 @@
 #include "operator.h"
 
-Operator::Operator( string nume, string prenume, long long CNP, time_t data):Angajati("Operator", nume, prenume, CNP, data){}
+Operator::Operator( string nume, string prenume, string CNP, time_t data):Angajati("Operator", nume, prenume, CNP, data){}
 
 void Operator::afis(){
     Angajati::afis();

@@ -1,6 +1,6 @@
 #include "asistent.h"
 
-Asistent::Asistent( string nume, string prenume, long long CNP, time_t data):Angajati("Asistent", nume, prenume, CNP, data){}
+Asistent::Asistent( string nume, string prenume, string CNP, time_t data):Angajati("Asistent", nume, prenume, CNP, data){}
 
 void Asistent::afis(){
     Angajati::afis();

@@ -1,4 +1,6 @@
 #include "produse.h"
+#pragma once
+
 
 class ArtVest:public Produse{
     string culoare;

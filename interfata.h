@@ -1,4 +1,6 @@
 #include "comanda.h"
+#pragma once
+
 
 class Interfata{
     vector<Angajati*> angajati;

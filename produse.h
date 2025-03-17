@@ -1,4 +1,6 @@
 #include "idgen.h"
+#pragma once
+
 
 class Produse{
     string tip;

@@ -5,6 +5,8 @@
 #include <chrono>
 #include <map>
 #include <queue>
+#pragma once
+
 
 using namespace std;
 

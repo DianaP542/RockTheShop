@@ -49,52 +49,41 @@ string Angajati::getTip(){
 }
 
 bool Angajati::validare(){
-    /*
-    string aux =to_string(CNP);
-    if(aux.length() != 13)
+    if(CNP.length() != 13)
         return false;
-    long long s=CNP;
-    while (s>9)
-        s= s/10;
+    string aux= CNP.substr(0,1);
+    //prima cifra
+    int s= stoi(aux);
     if (s>8)
         return false;
-    long long a=CNP;
-    while(a>999)
-        a=a/10;
-    a= a%100;
-    if (s>5 && a>07)
+    //anul
+    aux=CNP.substr(1,2);
+    int a= stoi(aux);
+    if ((s>4 && s<7) && a>07)
         return false;
-    long long l=CNP;
-    while (l > 99999)
-        l=l/10;
-    l=l%100;
+    //luna
+    aux=CNP.substr(3,2);
+    int l= stoi(aux);
     if(l>12)
         return false;
-    l=CNP;
-    while (l > 9999999)
-        l=l/10;
-    l=l%100;
-    if(l>31)
-    l=CNP;
-    for(int i=0; i<3;i++)
-        l=l/10;
-    l=l%100;
-    if((l>52)|| (l>46 && l<51))
-        return false;
-    */
-    if (CNP.length() != 13)
+    //ziua
+    aux=CNP.substr(5,2);
+    s = stoi(aux);
+    if(s>31)
+    //judet
+    aux=CNP.substr(7,2);
+    s = stoi(aux);
+    if((s>52)|| (s>46 && s<51))
         return false;
     return true;
 }
 
 bool Angajati::eSarbatorit(){
-    long long l=CNP; //de schimbat
-    while (l > 99999)
-        l=l/10;
-    l=l%100;
+    string aux=CNP.substr(3,2);
+    int l= stoi(aux); //l= luna de nastere din buletin
     time_t timp = time(NULL);
     struct tm *a = localtime(&timp);
-    int luna = a->tm_mon + 1;
+    int luna = a->tm_mon + 1; //luna= luna actuala
     if(l == luna)
         return true;
     return false;

@@ -43,5 +43,8 @@ double Comanda::valTotala(){
 }
 
 void Comanda::afis(){
-    for(Produse *p)
+    for(Produse *p : produse)
+    {
+        
+    }
 }

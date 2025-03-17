@@ -1,4 +1,6 @@
-#include "artv.h"
+#include "produse.h"
+#pragma once
+
 
 class Disc:public Produse{
     string casaDiscuri;

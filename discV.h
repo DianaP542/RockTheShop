@@ -1,4 +1,6 @@
 #include "disc.h"
+#pragma once
+
 
 class DiscV:public Disc{
     string stare;

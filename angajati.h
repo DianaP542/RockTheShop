@@ -1,4 +1,5 @@
-#include "discV.h"
+#include "idgen.h"
+#pragma once
 
 class Angajati{
     string tip;

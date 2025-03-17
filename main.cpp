@@ -1,12 +1,20 @@
 #include "interfata.h"
+#include "artv.h"
+#include "discV.h"
+#include "manager.h"
+#include "asistent.h"
+#include "operator.h"
+
+using namespace std;
+
 
 int main()
 {
     
     tm timp{};
-    timp.tm_year = 2000-1900;
-    timp.tm_mday = 33;
-    mktime(&timp);
+    timp.tm_year = 2005-1900;
+    timp.tm_mday = 115;
+    time_t timpAng = mktime(&timp);
 
     time_t rel;
     time(&rel);
@@ -30,12 +38,9 @@ int main()
     cout<<p<<endl;
 
     string num="Ilie", pren="Popoiu";
-    /*Angajati a(1, num, pren, 6050425375472, timp);
-    a.afis();*/
     
-    
-    long long cnp = 6050425375472;
-    Manager m(num, pren, cnp, timp);
+    string cnp = "6050425375472";
+    Manager m(num, pren, cnp, timpAng);
     m.afis();
     double sal= m.salariu(0);
     cout<<sal<<endl;
